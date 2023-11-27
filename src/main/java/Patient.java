@@ -3,4 +3,5 @@ public abstract class Patient {
     public Patient(String name){
         this.name=name;
     }
+    public abstract void Display();
 }
